@@ -3,7 +3,7 @@ package interfacesegregation;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BankPayment implements Payment{
+public class BankPayment implements Bank{
     @Override
     public void initiatePayments() {
         // ...
@@ -20,4 +20,6 @@ public class BankPayment implements Payment{
         // ...
         return new ArrayList<>();
     }
+
+
 }
